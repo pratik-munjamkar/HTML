@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+    
+	}
+
+body {
+	font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+	color:black;
+	background:black;
+}
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin: 200px auto;
+	position:relative;
+}
+
+#form {
+	background:white;
+	padding:25px;
+}
+
+#form h2 {
+	margin:auto;
+	font-size:20px;
+    text-align:center;
+    background-color:rgb(0, 0, 0);
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#form input[type="text"]{
+font-family: 'Times New Roman', Times, serif;
+font-size:15px;
+font-style: italic;
+ background:transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+
+</style>
+</head>
+<body>
+    
+    <div class="container">  
+        <form id="form" action="" method="post">
+          <h2>Yes!I want to subscribe to <i style="font-family:sans-serif">Mag-O-Zine</i> </h2>
+            <input placeholder="Name" type="text" name="Name">
+            <input placeholder="Last name" type="text" name="Last name" >
+            <input placeholder="Address" type="text"  name="Address" ><br>
+            <input placeholder="city" type="text" name="city" >
+            <input placeholder="State" type="text" name="State" >
+            <input placeholder="zip" type="text" name="zip" >
+            <fieldset id="Subscribe for :"><label>Subscribe for : </label>
+                <input type="checkbox" ><label>1 year ($20.95)</label>
+                <input type="checkbox" ><label>2 years ($35.00)</label>
+            </fieldset>
+            <fieldset id="Send me more information about :"><label>Send me more information about : </label><br>
+                <input type="checkbox" ><label>Computer-Zine</label><br>
+                <input type="checkbox" ><label>Fishing-Zine</label><br>
+                <input type="checkbox" ><label>Cat-O-Zine</label><br>
+            </fieldset>
+        </form>
+    </div>
+    <a href="https://suspicious-tereshkova-2076c9.netlify.app/" font-color="yellow">8.chart</a>
+</body>
+</html>
